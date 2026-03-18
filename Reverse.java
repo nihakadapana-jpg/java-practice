@@ -1,6 +1,9 @@
+import java.util.Scanner;
 class Reverse {
     public static void main(String[] args) {
-        String s = "niha";
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter name:");
+        String s = sc.nextLine();
         String rev = new StringBuilder(s).reverse().toString();
         System.out.println(rev);
     }
